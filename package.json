@@ -1,5 +1,20 @@
 {
+  "name": "ra24-3-pipeline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/public/http-server.js",
+  "scripts": {
+    "test": "echo \"Running tests... (placeholder)\" && exit 0",
+    "start": "node /public/http-server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "express": "^5.1.0"
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "lowdb": "^1.0.0",
+    "request": "^2.88.2"
   }
 }
