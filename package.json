@@ -11,8 +11,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^5.1.0",
     "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "firebase": "^12.3.0",
     "lodash": "^4.17.21",
     "lowdb": "^1.0.0",
     "request": "^2.88.2"
