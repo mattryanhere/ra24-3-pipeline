@@ -1,0 +1,20 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "http-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\"",
+    "start": "node http-server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "cors": "^2.8.5",
+    "lodash": "^4.17.21",
+    "lowdb": "^1.0.0.",
+    "request": "^2.88.2"
+  }
+}
