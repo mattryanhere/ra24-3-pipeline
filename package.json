@@ -2,10 +2,11 @@
   "name": "ra24-3-pipeline",
   "version": "1.0.0",
   "description": "",
-  "main": "/public/http-server.js",
+  "main": "http-server.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Running tests... (placeholder)\" && exit 0",
-    "start": "node /public/http-server.js"
+    "start": "node http-server.js",
+    "test": "set NODE_OPTIONS=--experimental-vm-modules && jest"
   },
   "keywords": [],
   "author": "",
